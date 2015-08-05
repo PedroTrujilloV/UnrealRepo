@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\UnrealRepo.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{7E6003A3-6831-4D4F-8E5F-A5AA8DABF6E0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealRepo.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UnrealRepoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{195B4122-9545-4581-B171-5AF612F84E7D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\UnrealRepo">
+			<UniqueIdentifier>{AC4FA8D3-5A5A-4C71-8DEF-CE4D63CF98FD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealRepo\UnrealRepo.Build.cs">
+			<Filter>Source\UnrealRepo</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\UnrealRepo\UnrealRepo.cpp">
+			<Filter>Source\UnrealRepo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealRepo\UnrealRepo.h">
+			<Filter>Source\UnrealRepo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealRepo\UnrealRepoGameMode.cpp">
+			<Filter>Source\UnrealRepo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealRepo\UnrealRepoGameMode.h">
+			<Filter>Source\UnrealRepo</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
